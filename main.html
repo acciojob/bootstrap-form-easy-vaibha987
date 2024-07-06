@@ -10,7 +10,48 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<form>
+	<h2 style="text-align:center;">Internship Form</h2>
+	<div>
+	<label for="first-name-input">First Name</label><br>
+	<input type="text" id="first-name-input" required>
+	</div>
+    <div>
+	<label for="last-name-input">Last Name</label><br>
+	<input type="text" id="last-name-input" required>
+	</div>
 
+	<div>
+	<label for="email-input">Email Address</label><br>
+	<input type="email" id="email-input" required placeholder="xyz@abc.com">
+	</div>
+
+	<div>
+	<label for="college-input">College</label><br>
+	<input type="text" id="college-input" required>
+	</div>
+
+	<div>
+	<label for="graduationYear">Graduation Year</label><br>
+	<select id="graduationYear" aria-required>
+		<option>Choose</option>
+		<option>2020</option>
+		<option>2021</option>
+		<option>2022</option>
+		<option>2023</option>
+	</select>
+	</div>
+
+	<div>
+		<label for="roll-no-input">Roll No.</label>
+		<input type="text" id="roll-no-input" required>
+	</div>
+
+	<div>
+		<input type="checkbox" id="conditions-checkbox" required>
+		<label for="conditions-checkbox">Agree to terms and condition</label>
+	</div>
+</form>
 </body>
 
 </html>
