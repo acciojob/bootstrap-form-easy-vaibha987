@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+input:invalid ~ .invalid-feedback {
+    display: block;
+}
+.invalid-feedback {
+    display: none;
+    color: red;
+}
