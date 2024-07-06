@@ -20,16 +20,19 @@
     <div>
 	<label for="last-name-input" class="form-label">Last Name</label><br>
 	<input type="text" id="last-name-input" class="form-control" required>
+	 <div class="invalid-feedback">Last name is required</div>
 	</div>
 
 	<div>
 	<label for="email-input" class="form-label">Email Address</label><br>
 	<input type="email" id="email-input" class="form-control" required placeholder="xyz@abc.com">
+	 <div class="invalid-feedback">Email Address is required</div>
 	</div>
 
 	<div>
 	<label for="college-input" class="form-label">College</label><br>
 	<input type="text" id="college-input" class="form-control" required>
+	 <div class="invalid-feedback">College name is required</div>
 	</div>
 
 	<div>
@@ -41,16 +44,19 @@
 		<option>2022</option>
 		<option>2023</option>
 	</select>
+		
 	</div>
 
 	<div>
 		<label for="roll-no-input" class="form-label">Roll No.</label>
 		<input type="text" id="roll-no-input" class="form-control" required>
+	 <div class="invalid-feedback">Roll No. is required</div>
 	</div>
 
 	<div>
 		<input type="checkbox" id="conditions-checkbox" required>
 		<label for="conditions-checkbox" class="form-label">Agree to terms and conditions' within the element:</label>
+	 <div class="invalid-feedback">You must agree before submitting</div>
 	</div>
 
 	<button type="submit" name="Submit Form" class="btn btn-primary">Submit Form</button>
